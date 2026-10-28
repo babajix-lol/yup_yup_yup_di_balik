@@ -1,0 +1,28 @@
+# CodeIgniter 4 gitignore
+/vendor/
+
+# Writable directory
+/writable/cache/*
+!/writable/cache/index.html
+!/writable/cache/.gitkeep
+/writable/debugbar/*
+!/writable/debugbar/index.html
+!/writable/debugbar/.gitkeep
+/writable/logs/*
+!/writable/logs/index.html
+!/writable/logs/.gitkeep
+/writable/session/*
+!/writable/session/index.html
+!/writable/session/.gitkeep
+/writable/uploads/*
+!/writable/uploads/index.html
+!/writable/uploads/.gitkeep
+
+# Environment files (kept in repository if required for class demo, uncomment below if ignored)
+# .env
+
+# OS and IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
